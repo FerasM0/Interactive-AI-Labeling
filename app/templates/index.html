@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>KI-Labeling-Framework</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <h1>Interaktives KI-Label</h1>
+
+  <label for="role">Wähle deine Rolle:</label>
+  <select id="role" onchange="updateView()">
+    <option value="basic">Einsteiger</option>
+    <option value="expert">Experte</option>
+  </select>
+
+  <div id="label-output" style="margin-top: 1em;"></div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
